@@ -55,7 +55,7 @@ nav{
 section{
 	width: 500px;
 	background: 000000;
-	height: 300px;
+	height: auto;
 	float: right;
 	margin-top: 0px;
 	border-radius: 10px;
@@ -65,7 +65,7 @@ section{
 aside{
 	width: 200px;
 	background: 000000;
-	height: 300px;
+	height: auto;
 	float: right;
 	margin-left: 20px;
 	border-radius: 40px;

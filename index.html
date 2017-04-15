@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="Claudia Cely" name="author">
-	<meta content="Sitio Web Administracion de Redes" name"description">
-	<meta content="UNAD, Diseño Web, html" name"keywords">
+	<meta content="Sitio Web Administracion de Redes"=name"description">
+	<meta content="UNAD, Diseño Web, html" name="keywords">
 	<title>Curso Administracion de Redes</title>
 	<link rel= "stylesheet" href="css/style.css">
 	<link rel= "stylesheet" href="css/font-awesome/css/font-awesome.css">
@@ -21,12 +21,11 @@
 	        <nav>
 		    	<div class="menu">
 		    		<ul> 
-	                <li><a href="Index.html"><span class="fa fa-home"></span><a href="index.html">Inicio</a></a></li>
-	                <li><a href=""><span class="fa fa-info-circle"></span>   <a href="administracion de redes.html">Administracion de Redes</a></li>
-	                <li><a href=""><span class="fa fa-warning"></span>Admón y Seguridad de Redes</a></li>
-	                <li><a href=""><span class="fa fa-exclamation-circle"></span>Amenazas de una Red</a></li>
-	                <li><a href=""><span class="fa fa-share-alt-square"></span>Integridad de Redes</a></li>
-	                <li><a href=""><span class="fa fa-wrench"></span>Disponibilidad de Red</a></li>
+	                <li><a href="index.html"><span class="fa fa-home"></span>Inicio</a></li>
+	                <li><a href="administracion de redes.html"><span class="fa fa-info-circle"></span>Administracion de Redes</a></li>	             <li><a href="Admon_seguridad_Redes.html"><span class="fa fa-warning"></span>Admón y Seguridad de Redes</a></li>
+	                <li><a href="amenazas_la_red.html"><span class="fa fa-exclamation-circle"></span>Amenazas de una Red</a></li>
+	                <li><a href="integridad_de_redes.html"><span class="fa fa-share-alt-square"></span>Integridad de Redes</a></li>
+	                <li><a href="disponibilidad_de_redes.html"><span class="fa fa-wrench"></span>Disponibilidad de Red</a></li>
 	                </ul>
 	            </div>
 	        </nav>
@@ -38,14 +37,16 @@
 		<br>
 		<br>
 		<iframe width="640" height="320" src="https://www.youtube.com/embed/3ncmqCI1TDs" frameborder="0" allowfullscreen></iframe>
-	    <p> Hola***</p>
-		</aside>
+	        </aside>
 		<br>
 
 		<footer>
-		
+		<br><br><br><br><br><br><br><br><br><br><br>
+		<center>
+		<a href="www.facebook.com"><img src="img/facebook.jpg" width="70" height="70"></a>
+		<a href="www.twitter.com"><img src="img/twiter.ico" width="60" height="60"></a>
+		</center>
 		</footer>
-
 	</div>
         </tr>
              </td>
@@ -54,7 +55,63 @@
 		        <img src="img/pie.jpg" alt="header">
 	    </tr>
               </td>
+              <SCRIPT LANGUAGE="JavaScript"> 
+<!-- Ronnie T. Moore --> 
+
+<!-- Begin 
+function readID() { 
+var expDays = 365; // dias para que expire 
+var expDate = new Date(); 
+expDate.setTime(expDate.getTime() + (24 * 60 * 60 * 1000 * expDays)); 
+var id = GetCookie('id'); 
+if (id == null || id == "no id") { 
+if (location.search.length > 1) id = location.search.substring(1, location.search.length); 
+else id = "no id"; 
+if (id != GetCookie('id')) SetCookie('id', id, expDate); 
+} 
+
+document.idform.id.value = id; 
+
+} 
+function getCookieVal (offset) { 
+var endstr = document.cookie.indexOf (";", offset); 
+if (endstr == -1) 
+endstr = document.cookie.length; 
+return unescape(document.cookie.substring(offset, endstr)); 
+} 
+function GetCookie (name) { 
+var arg = name + "="; 
+var alen = arg.length; 
+var clen = document.cookie.length; 
+var i = 0; 
+while (i < clen) { 
+var j = i + alen; 
+if (document.cookie.substring(i, j) == arg) 
+return getCookieVal (j); 
+i = document.cookie.indexOf(" ", i) + 1; 
+if (i == 0) break; 
+} 
+return null; 
+} 
+function SetCookie (name, value) { 
+var argv = SetCookie.arguments; 
+var argc = SetCookie.arguments.length; 
+var expires = (argc > 2) ? argv[2] : null; 
+var path = (argc > 3) ? argv[3] : null; 
+var domain = (argc > 4) ? argv[4] : null; 
+var secure = (argc > 5) ? argv[5] : false; 
+document.cookie = name + "=" + escape (value) + 
+((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + 
+((path == null) ? "" : ("; path=" + path)) + 
+((domain == null) ? "" : ("; domain=" + domain)) + 
+((secure == true) ? "; secure" : ""); 
+} 
+// End --> 
+</script> 
         </table>
+
+        
+
 </body>
 <script>src="js/modernizr.js"</script>
 <script>src="js/prefixfree.js"</script>
